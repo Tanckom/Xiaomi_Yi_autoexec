@@ -50,9 +50,6 @@ t cal -jqlt 100
 #sd test script by nutsey
 cardmgr d info > d:\cardinfo.txt
 
-sleep 1
-t app lowbatt 100 10000000
-
 #ready beep
 t pwm 1 enable
 sleep 1
